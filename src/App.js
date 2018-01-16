@@ -51,8 +51,7 @@ class App extends Component {
           <div className={isEmptyView ? '' : 'container-fluid'}>
             <div className={isEmptyView ? '' : 'row'}>
               <LeftSidebar />
-              <div className="col main">
-                <Jumbotron />
+              <div className="col main">                
                 <Routes />
               </div>
             </div>
@@ -69,3 +68,6 @@ const mapStateToProps = (state, ownProps) => {
   }
 }
 export default connect(mapStateToProps)(App)
+
+
+// <Jumbotron />

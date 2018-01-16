@@ -12,20 +12,26 @@ class AjaxExample extends Component {
       itemsPerPage: 10
     }
     this.columns = [
-      'alpha3Code',
+      'numericCode',
       'name',
-      'capital',
+      'gini',
       'region',
-      'subregion',
-      'population'
+      'area',
+      'area',
+      'population',
+      'capital',
+      'relevance'
     ]
     this.columnNames = [
-      'Code',
+      'ID',
       'Name',
-      'Capital',
-      'Region',
-      'Sub-region',
-      'Population'
+      'Version',
+      'Category',
+      'Created Date',
+      'Updated Date',
+      'Amount',
+      'Store Name',
+      'Redemption',
     ]
   }
   componentDidMount() {

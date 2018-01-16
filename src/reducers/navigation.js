@@ -41,68 +41,19 @@ const urls = [
       },
       {
         url: '',
-        icon: 'assignment',
-        title: 'Forms',
-        items: [
-          {
-            url: '/forms/default-forms',
-            icon: '',
-            title: 'Default forms',
-            items: []
-          },
-          {
-            url: '/forms/input-groups',
-            icon: '',
-            title: 'Input groups',
-            items: []
-          },
-          //          {
-          //            url: '/forms/steps',
-          //            icon: '',
-          //            title: 'Form steps',
-          //            items: []
-          //          },
-          {
-            url: '/forms/validation',
-            icon: '',
-            title: 'Form validation',
-            items: []
-          },
-          {
-            url: '/forms/sliders',
-            icon: '',
-            title: 'Sliders',
-            items: []
-          },
-          {
-            url: '/forms/react-datetime',
-            icon: '',
-            title: 'Date picker',
-            items: []
-          },
-          {
-            url: '/forms/react-select',
-            icon: '',
-            title: 'React select',
-            items: []
-          }
-        ]
-      },
-      {
-        url: '',
         icon: 'format_list_bulleted',
         title: 'Offer',
         items: [
           {
-            url: '/tables/reactable',
+            url: '/offers/list',
             icon: '',
             title: 'Offer List',
             items: []
           },
           {
-            url: '/forms/default-forms',
+            url: '/offer/create',
             icon: '',
-            title: 'Default forms',
+            title: 'Create Offer',
             items: []
           },
         ]

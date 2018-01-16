@@ -6,7 +6,7 @@ import StaticExample from './StaticExample'
 const Reactable = () => (
   <div className="row">
     <div className="col">
-      <Widget title="Reactable" description="Ajax example">
+      <Widget title="" description="">
         <AjaxExample />
       </Widget>
     </div>

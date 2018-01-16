@@ -72,7 +72,7 @@ const Routes = () => (
     <Route path="/dashboards/geographic" component={Geographic} />
     <Route path="/dashboards/e-commerce" component={ECommerce} />
     <Route path="/demos/demo-1" component={Demo1} />
-    <Route path="/forms/default-forms" component={DefaultForms} />
+    <Route path="/offer/create" component={DefaultForms} />
     <Route path="/forms/input-groups" component={InputGroups} />
     <Route path="/forms/react-datetime" component={ReactDatetime} />
     <Route path="/forms/react-select" component={ReactSelect} />
@@ -100,7 +100,7 @@ const Routes = () => (
     <Route path="/pages/under-maintenance" component={UnderMaintenance} />
     <Route path="/pages/unlock-account" component={UnlockAccount} />
     <Route path="/tables/default-tables" component={DefaultTables} />
-    <Route path="/tables/reactable" component={Reactable} />
+    <Route path="/offers/list" component={Reactable} />
     <Route component={EmptyPage} />
   </Switch>
 )

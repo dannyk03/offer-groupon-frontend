@@ -5,7 +5,7 @@ const Logo = () => (
     <div className="col">
       <div className="logo">
         <i className="fa fa-code" />
-        <span className="title">Sigma</span>
+        <span className="title">OfferBot</span>
       </div>
     </div>
   </div>
