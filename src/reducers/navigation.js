@@ -1,11 +1,11 @@
 const urls = [
   {
-    title: 'Navigation',
+    title: 'Menu',
     items: [
       {
         url: '',
         icon: 'dashboard',
-        title: 'Dashboards',
+        title: 'Dashboard',
         items: [
           {
             url: '/dashboards/analytics',
@@ -39,11 +39,6 @@ const urls = [
           }
         ]
       },
-    ]
-  },
-  {
-    title: 'Components',
-    items: [
       {
         url: '',
         icon: 'assignment',
@@ -96,20 +91,20 @@ const urls = [
       {
         url: '',
         icon: 'format_list_bulleted',
-        title: 'Offer List',
+        title: 'Offer',
         items: [
           {
             url: '/tables/reactable',
             icon: '',
-            title: 'Reactable',
+            title: 'Offer List',
             items: []
           },
           {
-            url: '/tables/default-tables',
+            url: '/forms/default-forms',
             icon: '',
-            title: 'Default tables',
+            title: 'Default forms',
             items: []
-          }
+          },
         ]
       },
     ]

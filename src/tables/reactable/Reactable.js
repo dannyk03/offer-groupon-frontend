@@ -9,9 +9,6 @@ const Reactable = () => (
       <Widget title="Reactable" description="Ajax example">
         <AjaxExample />
       </Widget>
-      <Widget title="Reactable" description="Static example">
-        <StaticExample />
-      </Widget>
     </div>
   </div>
 )
